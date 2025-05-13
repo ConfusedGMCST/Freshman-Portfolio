@@ -1,0 +1,21 @@
+.custom-navbar {
+    background-color: #a6e2e0;
+    /* border-radius: 0 0 15px 15px; */
+}
+.logo {
+    width: 75px;
+}
+.nav-item {
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 50%;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.cards {
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
