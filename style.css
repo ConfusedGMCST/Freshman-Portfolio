@@ -5,6 +5,9 @@
 .logo {
     width: 75px;
 }
+.navTitle {
+    margin-left: 15px;
+}
 .nav-item {
     text-align: center;
     justify-content: space-between;
@@ -14,8 +17,7 @@
 }
 .cards {
     margin-top: 5%;
-    margin-left: 5%;
     display: flex;
-    align-items: center;
     justify-content: center;
+    justify-content: space-around;
 }
