@@ -1,23 +1,70 @@
+@font-face {
+    font-family: yurgh;
+    src: url(Yurghus-Regular.ttf);
+}
+
 .custom-navbar {
-    background-color: #a6e2e0;
-    /* border-radius: 0 0 15px 15px; */
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14.5px );
+    -webkit-backdrop-filter: blur( 14.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+body {
+  background: linear-gradient(to right, rgba(128, 67, 103, 0.918), rgb(130, 44, 170));
 }
 .logo {
     width: 75px;
 }
 .navTitle {
+    font-family: yurgh;
+    font: bold;
     margin-left: 15px;
 }
 .nav-item {
+    font-family: yurgh;
     text-align: center;
     justify-content: space-between;
     margin-left: 50%;
     margin-top: 5px;
     border-radius: 10px;
 }
+.cT {
+    font-family: yurgh;
+}
+.test {
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
 .cards {
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     margin-top: 5%;
+    padding: 2%;
     display: flex;
-    justify-content: center;
     justify-content: space-around;
+}
+.yurgh {
+    position: relative;
+    left: 42%;
+    width: 15%;
+    animation: 1.5s ease-in-out 0s infinite alternate bh;
+}
+
+/* took this from Nolan - github.com/3xiondev */
+@keyframes bh {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 20deg;
+  }
 }
